@@ -32,10 +32,10 @@
 
 
 
-// let names=[1,2,3,4,5,60]
-// let data=names.filter(x=>
-// 	x>0)
-// console.log(data);
+let names=[1,2,3,4,5,60]
+let data=names.map(x=>
+	x>2)
+console.log(data);
 // var num=[1,3,4,5,6]
 // var data=num.map(x=>
 // 	x)

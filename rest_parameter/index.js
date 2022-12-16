@@ -1,7 +1,11 @@
-function data(...args){
-	let sumOfArgs = 0;
-	for (let i=0;i<args.length;i++){
-		sumOfArgs=sumOfArgs+args[i]
-		console.log(sumOfArgs)}
+function fun(...a){
+	let  sum=0
+	for (let i=0;i<a.length;i++){
+		sum=sum+a[i]
+	}
+	return sum
+
+
+	
 }
-(data(1,23,4))
+console.log(fun(1,2,4));
